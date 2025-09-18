@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/ThirdPerson/Blueprints/Char1.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/ThirdPerson/Blueprints/Char2.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/ThirdPerson/Blueprints/Char3.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/ThirdPerson/Lvl_ThirdPerson.umap",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/RS/EWEROMV0363KXS2WUTQRZF.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/C7/SG68IG7X9DL2C3X7TBD758.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/E5/JVQ6DLZYWUY6X81NCRGGU4.uasset",
+				"C:/Users/PrincessBS22/OneDrive - purdue.edu/fall '25/CGT 215/CGT215/lab4/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626.uasset"
+			]
+		}
+	]
+}
