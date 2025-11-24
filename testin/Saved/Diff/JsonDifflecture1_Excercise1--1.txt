@@ -1,0 +1,756 @@
+{
+	"__RootObjects": [
+		{
+			"__UObject": {
+				"Name": "lecture1_Excercise1",
+				"Class": "uobject:/Script/Engine.World",
+				"Flags": 11
+			},
+			"__SerialData": [
+				false,
+				{
+					"__UObject": {
+						"Name": "PersistentLevel",
+						"Class": "uobject:/Script/Engine.Level",
+						"Flags": 8
+					},
+					"__SerialData": [
+						false,
+						"DgAAAA==",
+						{
+							"__UObject": {
+								"Name": "WorldSettings",
+								"Class": "uobject:/Script/Engine.WorldSettings",
+								"Flags": 8
+							},
+							"bForceNoPrecomputedLighting": true,
+							"bIncludeGridSizeInNameForFoliageActors": true,
+							"bIncludeGridSizeInNameForPartitionedActors": true,
+							"NavigationSystemConfig": {
+								"__UObject": {
+									"Name": "NavigationSystemModuleConfig_0",
+									"Class": "uobject:/Script/NavigationSystem.NavigationSystemModuleConfig",
+									"Flags": 0
+								},
+								"bCreateOnClient": true,
+								"bAutoSpawnMissingNavData": true,
+								"NavigationSystemClass": {
+									"AssetPath": {
+										"PackageName": "/Script/NavigationSystem",
+										"AssetName": "NavigationSystemV1"
+									}
+								}
+							},
+							"WorldPartition": {
+								"__UObject": {
+									"Name": "WorldPartition_1",
+									"Class": "uobject:/Script/Engine.WorldPartition",
+									"Flags": 0
+								},
+								"__SerialData": [
+									false,
+									false
+								],
+								"EditorHash": {
+									"__UObject": {
+										"Name": "WorldPartitionEditorSpatialHash_0",
+										"Class": "uobject:/Script/Engine.WorldPartitionEditorSpatialHash",
+										"Flags": 0
+									}
+								},
+								"RuntimeHash": {
+									"__UObject": {
+										"Name": "WorldPartitionRuntimeHashSet_0",
+										"Class": "uobject:/Script/Engine.WorldPartitionRuntimeHashSet",
+										"Flags": 8
+									},
+									"RuntimePartitions": [
+										{
+											"Name": "MainGrid",
+											"Class": "uobject:/Script/Engine.RuntimePartitionLHGrid",
+											"MainLayer": {
+												"__UObject": {
+													"Name": "RuntimePartitionLHGrid_0",
+													"Class": "uobject:/Script/Engine.RuntimePartitionLHGrid",
+													"Flags": 0
+												},
+												"CellSize": 25200,
+												"Name": "MainGrid",
+												"LoadingRange": 76800,
+												"DebugColor": {
+													"R": 0.930146,
+													"G": 0.419408,
+													"B": 0.710742
+												}
+											},
+											"HLODSetups": [
+												{
+													"Name": "PersistentLevel",
+													"HLODLayers": [
+														"uobject:/Game/Lecture_1and3/Shaver_Bria_215_lab2_HLOD0_Instancing.Shaver_Bria_215_lab2_HLOD0_Instancing"
+													],
+													"bIsSpatiallyLoaded": false,
+													"PartitionLayer": {
+														"__UObject": {
+															"Name": "RuntimePartitionPersistent_0",
+															"Class": "uobject:/Script/Engine.RuntimePartitionPersistent",
+															"Flags": 0
+														},
+														"Name": "PersistentLevel",
+														"bClientOnlyVisible": true,
+														"LoadingRange": 0,
+														"DebugColor": {
+															"R": 0.50112,
+															"G": 0.998356,
+															"B": 0.719138
+														},
+														"HLODIndex": 0
+													}
+												}
+											]
+										}
+									]
+								},
+								"DefaultHLODLayer": "uobject:/Game/Lecture_1and3/Shaver_Bria_215_lab2_HLOD0_Instancing.Shaver_Bria_215_lab2_HLOD0_Instancing"
+							},
+							"DefaultGameMode": "uobject:/Game/lab4a2/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C",
+							"DefaultWorldPartitionSettings": {
+								"LoadedEditorRegions": [
+									{
+										"Min": {
+											"X": -102480.8671875,
+											"Y": -102536.1953125,
+											"Z": -2097152
+										},
+										"Max": {
+											"X": 102491.1875,
+											"Y": 102276.8515625,
+											"Z": 2097152
+										},
+										"IsValid": true
+									}
+								]
+							},
+							"BookmarkArray": [
+								"uobject:None",
+								{
+									"__UObject": {
+										"Name": "BookMark_0",
+										"Class": "uobject:/Script/Engine.BookMark",
+										"Flags": 8
+									},
+									"Location": {
+										"X": 542.47388190075844,
+										"Y": 1.910855303645143,
+										"Z": 318.36980978312982
+									},
+									"Rotation": {
+										"Pitch": -13.988928481936455,
+										"Yaw": -179.79817481517105,
+										"Roll": -9.6060598638523362e-07
+									}
+								},
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None"
+							],
+							"ActorGuid": {
+								"A": -330711453,
+								"B": 1255091441,
+								"C": -1132389185,
+								"D": 1311257264
+							},
+							"ActorLabel": "WorldSettings-1"
+						},
+						{
+							"__UObject": {
+								"Name": "Brush_0",
+								"Class": "uobject:/Script/Engine.Brush",
+								"Flags": 8
+							},
+							"bNotForClientOrServer": true,
+							"Brush": "uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.Brush",
+							"BrushComponent": {
+								"__UObject": {
+									"Name": "BrushComponent0",
+									"Class": "uobject:/Script/Engine.BrushComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"Brush": "uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.Brush"
+							},
+							"bHidden": false,
+							"SpawnCollisionHandlingMethod": "AlwaysSpawn",
+							"RootComponent": "uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.Brush_0.BrushComponent0",
+							"ActorGuid": {
+								"A": -417150830,
+								"B": 1141814183,
+								"C": 1336678333,
+								"D": 1830774153
+							},
+							"ActorLabel": "Brush"
+						},
+						{
+							"__UObject": {
+								"Name": "WorldDataLayers",
+								"Class": "uobject:/Script/Engine.WorldDataLayers",
+								"Flags": 8
+							},
+							"NetDormancy": "DORM_DormantAll",
+							"ActorGuid": {
+								"A": 1399388859,
+								"B": 1205262680,
+								"C": 229558923,
+								"D": 68665234
+							},
+							"ActorLabel": "WorldDataLayers-1"
+						},
+						"uobject:None",
+						"uobject:None",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.VolumetricCloud_UAID_A85E45CFE40401D200_1470381760",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.SkyLight_UAID_A85E45CFE40401D200_1470380759",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.DirectionalLight_UAID_A85E45CFE40401D200_1470382761",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.PlayerStart_UAID_F02F74551BF5599B01_1153002503",
+						"uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.Landscape_UAID_A85E45CFE404FBD100_1221515703",
+						"BwAAAA==",
+						"dW5yZWFsAA==",
+						"AAAAAA==",
+						"FwAAAA==",
+						"L0dhbWUvTWFwcy8ya21UZW1wbGF0ZQA=",
+						"AAAAAA==",
+						"AAAAAA==",
+						"YR4AAA==",
+						"AQAAAA==",
+						{
+							"__UObject": {
+								"Name": "Model_0",
+								"Class": "uobject:/Script/Engine.Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								{
+									"__UObject": {
+										"Name": "Polys_0",
+										"Class": "uobject:/Script/Engine.Polys",
+										"Flags": 8
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA=="
+									]
+								},
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								false,
+								"AAAAAA==",
+								"AAAAAA==",
+								"nt+35w==",
+								"qqOmEg==",
+								"8Di16g==",
+								"q2kA2A==",
+								"AAAAAA=="
+							]
+						},
+						"AAAAAA==",
+						"uobject:None",
+						"uobject:None",
+						"uobject:None",
+						"uobject:None",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA=="
+					],
+					"bUseExternalActors": true,
+					"Model": "uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.Model_0",
+					"LevelBuildDataId": {
+						"A": -1641126509,
+						"B": 1086913506,
+						"C": 1759010468,
+						"D": -1667430646
+					},
+					"bIsPartitioned": true,
+					"WorldSettings": "uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.WorldSettings",
+					"WorldDataLayers": "uobject:/Game/Lecture_1and3/lecture1_Excercise1.lecture1_Excercise1:PersistentLevel.WorldDataLayers",
+					"bUseActorFolders": true,
+					"__IndirectlyReferenced": [
+						{
+							"__UObject": {
+								"Name": "Brush",
+								"Class": "uobject:/Script/Engine.Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAYEA=",
+								"AAAAAAAAYEA=",
+								"AAAAAAAAYEA=",
+								"qkxY6Hq2a0A=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								{
+									"__UObject": {
+										"Name": "Polys_1",
+										"Class": "uobject:/Script/Engine.Polys",
+										"Flags": 8
+									},
+									"__SerialData": [
+										false,
+										"BgAAAA==",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAww==",
+										"AACAvw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAwwAAAMMAAADDAAAAwwAAAMMAAABDAAAAwwAAAEMAAABDAAAAwwAAAEMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAww==",
+										"AAAAQw==",
+										"AAAAww==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAgA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAwwAAAEMAAADDAAAAwwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAQw==",
+										"AAAAQw==",
+										"AAAAww==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAQwAAAEMAAADDAAAAQwAAAEMAAABDAAAAQwAAAMMAAABDAAAAQwAAAMMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAQw==",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAgA==",
+										"AAAAgA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAQwAAAMMAAADDAAAAQwAAAMMAAABDAAAAwwAAAMMAAABDAAAAwwAAAMMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAww==",
+										"AAAAQw==",
+										"AAAAQw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAAA==",
+										"BAAAAA==",
+										"AAAAwwAAAEMAAABDAAAAwwAAAMMAAABDAAAAQwAAAMMAAABDAAAAQwAAAEMAAABD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAAA==",
+										"BAAAAA==",
+										"AAAAwwAAAMMAAADDAAAAwwAAAEMAAADDAAAAQwAAAEMAAADDAAAAQwAAAMMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None"
+									]
+								},
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								true,
+								"CAAAAA==",
+								"AAAAAA==",
+								"q+vYtw==",
+								"dxjgjg==",
+								"j+ceJA==",
+								"AonJ8w==",
+								"AAAAAA=="
+							]
+						}
+					]
+				},
+				"AAAAAA==",
+				"AAAAAA=="
+			],
+			"ThumbnailInfo": {
+				"__UObject": {
+					"Name": "WorldThumbnailInfo_0",
+					"Class": "uobject:/Script/UnrealEd.WorldThumbnailInfo",
+					"Flags": 8
+				}
+			},
+			"EditorViews": [
+				{
+					"CamPosition": {
+						"X": -72.42631912231468,
+						"Y": 1.4210854715202004e-14,
+						"Z": 48.717259933660202
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 199.99999999999955,
+						"Y": -4.8985871965894078e-14,
+						"Z": 60.642363638171325
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 180,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": -72.42631912231468,
+						"Y": 1.4210854715202004e-14,
+						"Z": 48.717259933660202
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": -72.42631912231468,
+						"Y": 1.4210854715202004e-14,
+						"Z": 48.717259933660202
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				}
+			],
+			"ContentBundleManager": {
+				"__UObject": {
+					"Name": "ContentBundleManager_0",
+					"Class": "uobject:/Script/Engine.ContentBundleManager",
+					"Flags": 0
+				},
+				"PIEDuplicateHelper": {
+					"__UObject": {
+						"Name": "ContentBundleDuplicateForPIEHelper_0",
+						"Class": "uobject:/Script/Engine.ContentBundleDuplicateForPIEHelper",
+						"Flags": 0
+					}
+				}
+			}
+		}
+	],
+	"__PackageSummary": {
+		"__CustomVersions": [
+			{
+				"Key": "697DD581E64F41ABAA4A51ECBEB7B628",
+				"Version": 121
+			},
+			{
+				"Key": "59DA5D5212324948B878597870B8E98B",
+				"Version": 9
+			},
+			{
+				"Key": "D89B5E4224BD4D468412ACA8DF641779",
+				"Version": 56
+			},
+			{
+				"Key": "601D1886AC644F84AA16D3DE0DEAC7D6",
+				"Version": 207
+			},
+			{
+				"Key": "9C54D522A8264FBE9421074661B482D0",
+				"Version": 44
+			},
+			{
+				"Key": "9DFFBCD6494F0158E22112823C92A888",
+				"Version": 11
+			},
+			{
+				"Key": "1ED048F42F2E4C6889D053A4F18F102D",
+				"Version": 1
+			},
+			{
+				"Key": "CFFC743F43B04480939114DF171D2073",
+				"Version": 37
+			},
+			{
+				"Key": "E70863686B234C5884391B7016265E91",
+				"Version": 17
+			},
+			{
+				"Key": "12F88B9F88754AFCA67CD90C383ABD29",
+				"Version": 49
+			},
+			{
+				"Key": "29E575DDE0A346279D10D276232CDCEA",
+				"Version": 17
+			}
+		]
+	}
+}
